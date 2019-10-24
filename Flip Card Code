@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <title>repl.it</title>
+    <link href="style.css" rel="stylesheet" type="text/css" />
+  </head>
+  <body><!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+body {
+  font-family: "Times New Roman";
+}
+
+.flip-card {
+  background-color: transparent;
+  width: 300px;
+  height: 300px;
+  perspective: 1000px;
+}
+
+.flip-card-inner {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  transition: transform 0.6s;
+  transform-style: preserve-3d;
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+}
+
+.flip-card:hover .flip-card-inner {
+  transform: rotateY(180deg);
+}
+
+.flip-card-front, .flip-card-back {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  backface-visibility: hidden;
+}
+
+
+
+.flip-card-back {
+  background-color: #ff0000;
+  color: white;
+  transform: rotateY(180deg);
+}
+ .flip-card-back {
+  text-shadow: 2px 2px black;
+}
+
+</style>
+</head>
+<body>
+
+<div class="flip-card">
+  <div class="flip-card-inner">
+    <div class="flip-card-front">
+      <img src=https://github.com/terminator69851/How-to-build-a-PC/blob/master/pic.jpg?raw=true" height= 300>
+    </div>
+    <div class="flip-card-back"> 
+      <h1>This is a Computer</h1> 
+      <h3>It can be used for many jobs like 
+        <li> Engineering  </li>
+        <li> Architecture </li>
+        <li> Music Mixing </li>
+        <li> Streaming </li>
+     </h3> 
+
+      
+      <p>
+
+We all love computers because they are very useful in our day to day lives. Lets show you how to build one.
+
+      </p>
+    </div>
+  </div>
+</div>
+
+</body>
+</html>
+
+
+    <script src="script.js"></script>
+  </body>
+</html>
