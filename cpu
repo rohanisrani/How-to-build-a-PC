@@ -1,0 +1,680 @@
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+	<title>How to build a PC</title>
+	<link rel="stylesheet" type="text/css" href="styles/style.css" media="screen" />
+</head>
+
+<body>
+	<div id="frame">
+
+		<div class="dropdown">
+			<button onclick="myFunction()" class="dropbtn fadeSelect">Menu</button>
+      <div id="myDropdown" class="dropdown-content">
+        <a class="fadeMenu1" href="index.html">Home</a>
+        <a class="fadeMenu2" href="cpu.html">CPU</a>
+        <a class="fadeMenu3" href="mobo.html">Motherboard</a>
+        <a class="fadeMenu4" href="ram.html">RAM</a>
+        <a class="fadeMenu5" href="gpu.html">GPU</a>
+        <a class="fadeMenu6" href="storage.html">Storage</a>
+        <a class="fadeMenu7" href="psu.html">Power Supply</a>
+        <a class="fadeMenu8" href="case.html">Case</a>
+        <a class="fadeMenu9" href="tutorial.html">Tutorial</a>
+
+      </div>
+    </div>
+
+  </div>
+  
+
+</body>
+<!-- Logo Area Starts -->
+<div id="logo">
+  
+</div>
+<!-- Navigation Div Ends -->
+
+<div class="gallery fadeGallery">
+  <h2> Computer Proccessing Unit </h2>
+
+  <br>
+  
+  <p>
+    
+    A CPU, or processor is one of the most important components of a computer. If we make an analogy to the human body, the processor would be the brain, it processes everything you do on your computer. A processor’s main jobs are: Decode, encode, and execute,these put together will make your computer function. How good a processor is, is based on their core count, speed, and TDP (Thermal Design Power). Processor speeds are how fast a processor can process information, usually rated in Ghz, one Ghz is equivalent to 1,000,000,000 cycles per second. Most processors these days are usually around 3.5Ghz - 2Ghz with two cores or four.</p> 
+    <br>
+    <p>
+    Speaking of cores, a core is the part of a processor that does these calculations and cycles, think of it like this: if I had one hand to do work, it would be slow, but if i had four, things would be four times as fast. Then there is TDP, your TDP is how efficient your processor is, if you have a processor at 3 Ghz, 4 cores, but with a 100 watt TDP, it is not going to be as efficient as a 3 Ghz, 4 cores, 50 watt TDP. When it comes to processors, the main competitors are Intel and AMD, Intel mainly uses LGA (Land Grid Array) CPU sockets, where the processor pins are placed on the motherboard, while AMD mainly uses PGA (Pin Grid Array) where all the pins are placed on the processor itself.
+
+  </p>
+</div>
+
+<div class="nav1">
+  <p>
+    <a href="https://github.com/terminator69851">Rohan</a>https://github.com/terminator69851
+  </p>
+  <p>
+    <a href="#">Lavanessa</a>
+  </p>
+
+  <div>
+    <ul>
+      <li><a href="#">Computer Science</a></li>
+      <li><a href="#">HTML</a></li>
+      <li><a href="#">CSS</a></li>
+      <li><a href="#">Rubric</a></li>
+    </ul>
+  </div>
+</div>
+
+<div id="mycard">
+  <div class="flip-card">                                     
+    <div class="flip-card-inner">
+      <div class="flip-card-front">
+        <img src=https://github.com/terminator69851/How-to-build-a-PC/blob/master/i9-9900ks-1-100815739-large.jpg?raw=true" height= 300>
+      </div>
+      <div class="flip-card-back"> 
+        <h1>This is a CPU</h1> 
+        <h3>This is the Brain of the Computer
+          <li> Intel  </li>
+          <li> AMD </li>
+        
+      </h3> 
+        
+        <p>
+ This is a very important part and can the i9-9900k is the best Intel CPU on the market for consumers while for AMD the best one is the 3900x
+
+        </p>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="logo">
+<div class=“imglogo”> 
+<img src=https://github.com/terminator69851/How-to-build-a-PC/blob/master/img.png?raw=true>
+
+
+<style>
+
+  .logo{
+
+    position: absolute;
+    top: 100;
+    left: 100;
+  }
+
+    .imglogo{
+
+      position: relative;
+
+  }
+
+  #mycard{
+  position:absolute;
+  top:150;
+  right:10;
+}
+.flip_card{
+
+ position: relative;
+    top: 50px;
+    left: 50px;
+
+}
+
+body {
+  font-family: "Times New Roman";
+}
+
+.flip-card {
+  background-color: transparent;
+  width: 300px;
+  height: 300px;
+  perspective: 1000px;
+}
+
+.flip-card-inner {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  transition: transform 0.6s;
+  transform-style: preserve-3d;
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+}
+
+.flip-card:hover .flip-card-inner {
+  transform: rotateY(180deg);
+}
+
+.flip-card-front, .flip-card-back {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  backface-visibility: hidden;
+}
+
+
+
+.flip-card-back {
+  background-color: #ff0000;
+  color: white;
+  transform: rotateY(180deg);
+}
+ .flip-card-back {
+  text-shadow: 2px 2px black;
+}
+
+  .dropbtn {
+  background-color: #d3d3d3;
+  color: #000000;
+  width: 960px;
+  height: 50px;
+  font-size: 16px;
+  border-left: 6px solid red;
+  cursor: pointer;
+  text-align: absolute;
+  overflow: hidden;
+  align-items: absolute;
+  position: absolute;
+  top: 50px;
+}
+
+/* Dropdown button on hover & focus */
+
+.dropbtn:hover,
+.dropbtn:focus {
+  background-color: #ffffff;
+}
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+/* Dropdown Content (Hidden by Default) */
+.dropdown-content {
+  display: none;
+  position: absolute;
+  top: 130px;
+  left: 2px;
+  background-color: #4b4c58;
+  border: 6px black;
+  min-width: 160px;
+  z-index: 1;
+  overflow: hidden;
+}
+
+/* Links inside the dropdown */
+
+.dropdown-content a {
+  color: #ffffff;
+  font-family: verdana;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+/* Change color of dropdown links on hover */
+
+.dropdown-content a:hover {
+  background-color: #ff0000;
+}
+
+.show {
+  display: block;
+}
+
+.fadeMenu1 {
+  -webkit-animation: fadeMenu1 1s;
+  /* Safari, Chrome and Opera > 12.1 */
+  display: block;
+  margin: 10px auto;
+}
+@keyframes fadeMenu1 {
+  0% {
+    opacity: 0;
+    transform: translateY(100px);
+  }
+  20% {
+    opacity: 1;
+    transform: translateY(-10px);
+  }
+  40% {
+    opacity: 1;
+    transform: translateY(10px);
+  }
+  60% {
+    opacity: 1;
+    transform: translateY(0px);
+  }
+}
+.fadeMenu2 {
+  -webkit-animation: fadeMenu2 1.5s;
+  /* Safari, Chrome and Opera > 12.1 */
+  display: block;
+  margin: 10px auto;
+}
+@keyframes fadeMenu2 {
+  0% {
+    opacity: 0;
+    transform: translateY(100px);
+  }
+  20% {
+    opacity: 1;
+    transform: translateY(-10px);
+  }
+  40% {
+    opacity: 1;
+    transform: translateY(10px);
+  }
+  60% {
+    opacity: 1;
+    transform: translateY(0px);
+  }
+}
+.fadeMenu3 {
+  -webkit-animation: fadeMenu3 2s;
+  /* Safari, Chrome and Opera > 12.1 */
+  display: block;
+  margin: 10px auto;
+}
+@keyframes fadeMenu3 {
+  0% {
+    opacity: 0;
+    transform: translateY(100px);
+  }
+  20% {
+    opacity: 1;
+    transform: translateY(-10px);
+  }
+  40% {
+    opacity: 1;
+    transform: translateY(10px);
+  }
+  60% {
+    opacity: 1;
+    transform: translateY(0px);
+  }
+}
+.fadeMenu4 {
+  -webkit-animation: fadeMenu4 2.5s;
+  /* Safari, Chrome and Opera > 12.1 */
+  display: block;
+  margin: 10px auto;
+}
+@keyframes fadeMenu4 {
+  0% {
+    opacity: 0;
+    transform: translateY(100px);
+  }
+  20% {
+    opacity: 1;
+    transform: translateY(-10px);
+  }
+  40% {
+    opacity: 1;
+    transform: translateY(10px);
+  }
+  60% {
+    opacity: 1;
+    transform: translateY(0px);
+  }
+}
+.fadeMenu5 {
+  -webkit-animation: fadeMenu5 3s;
+  /* Safari, Chrome and Opera > 12.1 */
+  display: block;
+  margin: 10px auto;
+}
+@keyframes fadeMenu5 {
+  0% {
+    opacity: 0;
+    transform: translateY(100px);
+  }
+  20% {
+    opacity: 1;
+    transform: translateY(-10px);
+  }
+  40% {
+    opacity: 1;
+    transform: translateY(10px);
+  }
+  60% {
+    opacity: 1;
+    transform: translateY(0px);
+  }
+}
+.fadeMenu6 {
+  -webkit-animation: fadeMenu6 3.5s;
+  /* Safari, Chrome and Opera > 12.1 */
+  display: block;
+  margin: 10px auto;
+}
+@keyframes fadeMenu6 {
+  0% {
+    opacity: 0;
+    transform: translateY(100px);
+  }
+  20% {
+    opacity: 1;
+    transform: translateY(-10px);
+  }
+  40% {
+    opacity: 1;
+    transform: translateY(10px);
+  }
+  60% {
+    opacity: 1;
+    transform: translateY(0px);
+  }
+}
+.fadeMenu7 {
+  -webkit-animation: fadeMenu7 4s;
+  /* Safari, Chrome and Opera > 12.1 */
+  display: block;
+  margin: 10px auto;
+}
+@keyframes fadeMenu7 {
+  0% {
+    opacity: 0;
+    transform: translateY(100px);
+  }
+  20% {
+    opacity: 1;
+    transform: translateY(-10px);
+  }
+  40% {
+    opacity: 1;
+    transform: translateY(10px);
+  }
+  60% {
+    opacity: 1;
+    transform: translateY(0px);
+  }
+}
+.fadeMenu8 {
+  -webkit-animation: fadeMenu8 4.5s;
+  /* Safari, Chrome and Opera > 12.1 */
+  display: block;
+  margin: 10px auto;
+}
+@keyframes fadeMenu8 {
+  0% {
+    opacity: 0;
+    transform: translateY(100px);
+  }
+  20% {
+    opacity: 1;
+    transform: translateY(-10px);
+  }
+  40% {
+    opacity: 1;
+    transform: translateY(10px);
+  }
+  60% {
+    opacity: 1;
+    transform: translateY(0px);
+  }
+}
+.fadeMenu9 {
+  -webkit-animation: fadeMenu9 5s;
+  /* Safari, Chrome and Opera > 12.1 */
+  display: block;
+  margin: 10px auto;
+}
+@keyframes fadeMenu9 {
+  0% {
+    opacity: 0;
+    transform: translateY(100px);
+  }
+  20% {
+    opacity: 1;
+    transform: translateY(-10px);
+  }
+  40% {
+    opacity: 1;
+    transform: translateY(10px);
+  }
+  60% {
+    opacity: 1;
+    transform: translateY(0px);
+  }
+}
+.fadeSelect{
+  -webkit-animation: fadeSelect 5s;
+  /* Safari, Chrome and Opera > 12.1 */
+  display: block;
+  margin: 10px auto;
+}
+@keyframes fadeSelect {
+  0% {
+    opacity: 0;
+    transform: translateY(500px);
+  }
+  20% {
+    opacity: 1;
+    transform: translateY(-10px);
+  }
+  40% {
+    opacity: 1;
+    transform: translateY(10px);
+  }
+  60% {
+    opacity: 1;
+    transform: translateY(0px);
+  }
+}
+
+/*blocks fade*/
+.fadeBlock1 {
+  -webkit-animation: fadeBlock1 1s;
+  /* Safari, Chrome and Opera > 12.1 */
+  display: block;
+  margin: 10px auto;
+}
+@keyframes fadeBlock1 {
+  0% {
+    opacity: 0;
+    transform: translateY(100px);
+  }
+
+  100% {
+    opacity: 1;
+    transform: translateY(0px);
+  }
+}
+
+.fadeBlock2 {
+  -webkit-animation: fadeBlock2 1.3s;
+  /* Safari, Chrome and Opera > 12.1 */
+  display: block;
+  margin: 10px auto;
+}
+@keyframes fadeBlock2 {
+  0% {
+    opacity: 0;
+    transform: translateY(100px);
+  }
+
+  100% {
+    opacity: 1;
+    transform: translateY(0px);
+  }
+}
+
+.fadeBlock3 {
+  -webkit-animation: fadeBlock3 1.6s;
+  /* Safari, Chrome and Opera > 12.1 */
+  display: block;
+  margin: 10px auto;
+}
+@keyframes fadeBlock3 {
+  0% {
+    opacity: 0;
+    transform: translateY(100px);
+  }
+
+  100% {
+    opacity: 1;
+    transform: translateY(0px);
+  }
+}
+
+.fadeBlock4 {
+  -webkit-animation: fadeBlock4 1.9s;
+  /* Safari, Chrome and Opera > 12.1 */
+  display: block;
+  margin: 10px auto;
+}
+@keyframes fadeBlock4 {
+  0% {
+    opacity: 0;
+    transform: translateY(100px);
+  }
+
+  100% {
+    opacity: 1;
+    transform: translateY(0px);
+  }
+}
+
+/* Fade Gallery*/
+
+.fadeGallery{
+  -webkit-animation: fadeGallery 3s;
+  /* Safari, Chrome and Opera > 12.1 */
+  display: block;
+  margin: 10px auto;
+}
+@keyframes fadeGallery {
+ 0% {
+    opacity: 0;
+    transform: translateY(100px);
+  }
+  20% {
+    opacity: 1;
+    transform: translateY(-10px);
+  }
+  40% {
+    opacity: 1;
+    transform: translateY(10px);
+  }
+  60% {
+    opacity: 1;
+    transform: translateY(0px);
+  }
+}
+
+
+/* Logo CSS Starts */
+#logo {
+  width: 200px;
+  height: 80px;
+  margin: 15px auto;
+  float:center;
+}
+/* Logo CSS ENDS*/
+
+/* Gallery Area */
+.gallery {
+  width: 960px;
+  height: 370px;
+  margin: 20px auto;
+  text-align: center;
+  background: #fff;
+  -moz-box-shadow: 0 0 8px #666;
+  -webkit-box-shadow: 0 0 8px #666;
+  box-shadow: 0 0 8px #666;
+  border-left: 6px solid red;
+}
+.gallery img {
+  padding: 10px 0;
+}
+html,
+* {
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  background: url(http://blog.hdwallsource.com/wp-content/uploads/2014/11/dark-gradient-wallpaper-26038-26723-hd-wallpapers.jpg)
+    repeat top center #ada6a0;
+  font-family: Arial, Verdana, Helvetica, sans-serif;
+  font-size: 12px;
+}
+
+a {
+  color: #000;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+#frame {
+  width: 960px;
+  margin: 0 auto;
+}
+
+/* Welcome Text Box */
+.nav1 {
+  width: 100%;
+  height: 45px;
+  background: #fff;
+  -moz-box-shadow: 0 0 8px #666;
+  -webkit-box-shadow: 0 0 8px #666;
+  box-shadow: 0 0 8px #666;
+  position: absolute;
+  bottom: 0px;
+  border-left: 6px solid red;
+}
+.nav1 ul {
+  list-style: none;
+}
+.nav1 ul li {
+  float: left;
+  font-size: 16px;
+  margin: 13px 22px;
+}
+.nav1 div {
+  float: right;
+}
+.nav1 p {
+  margin: 15px;
+  float: left;
+}
+
+p {
+  font-family: verdana;
+  font-size: 18px;
+  
+}
+
+</style>
+
+<script>
+
+  function myFunction() {
+  document.getElementById("myDropdown").classList.toggle("show");
+}
+
+// Close the dropdown menu if the user clicks outside of it
+window.onclick = function(event) {
+  if (!event.target.matches(".dropbtn")) {
+    var dropdowns = document.getElementsByClassName("dropdown-content");
+    var i;
+    for (i = 0; i < dropdowns.length; i++) {
+      var openDropdown = dropdowns[i];
+      if (openDropdown.classList.contains("show")) {
+        openDropdown.classList.remove("show");
+      }
+    }
+  }
+};
+
+</script>
+
+</html>
